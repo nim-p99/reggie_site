@@ -27,7 +27,7 @@ function Computer() {
         <Html 
           transform
           occlude
-          position={[0, 3.9, 1]}   // adjust to fit screen 
+          position={[0, 4.16, 1]}   // adjust to fit screen 
           scale={0.15}
           pointerEvents="auto"
           style={{ 
@@ -55,7 +55,7 @@ function Computer() {
             width: '100%',
             height: '100%',
             pointerEvents: 'none',
-            backround: `
+            background: `
               radial-gradient(circle, rgba(255,255,255,0.15) 0% rgba(0,0,0,0.3) 60% rgba(0,0,0,0.7) 100%
             `,
             boxShadow: 'inset 0 0 50px rgba(0,0,0,1), inset 20px 20px 40px rgba(255,255,255,0.2)',
