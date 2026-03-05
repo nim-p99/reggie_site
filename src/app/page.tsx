@@ -10,7 +10,7 @@ import Mockup from '@/components/Mockup';
 export default function Home() {
   return (
     <main className="bg-[#258c3d] text-white">
-      <section className="relative z-10 min-h-screen flex flex-col items-center justify-start">
+      <section className="relative z-10 w-full flex flex-col items-center justify-start">
         <Logo />
         {/* <Reggie/> */}
       </section>

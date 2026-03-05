@@ -3,7 +3,7 @@
 export default function Description() {
   return(
     <>
-      <section className="relative px-8 py-24 md:py-32 flex flex-col items-center text-center">
+      <section className="relative px-6 py-16 md:py-32 flex flex-col items-center text-center">
         <div className="max-w-4xl space-y-8">
           
           <h2 className="text-3xl md:text-4xl tracking-tight">
