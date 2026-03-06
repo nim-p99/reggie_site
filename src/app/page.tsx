@@ -5,6 +5,7 @@ import Logo from '@/components/Logo';
 import Description from '@/components/Description';
 import Reflection from '@/components/Reflection';
 import Mockup from '@/components/Mockup';
+import Pages from '@/components/Pages';
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Description/>
       <Reflection />
       <Mockup />
+      <Pages />
 
       <section className="h-screen flex items-center justify-center">
         <h1 className="text-6xl font-bold">take a sneak peak</h1>
