@@ -6,6 +6,12 @@ import Description from '@/components/Description';
 import Reflection from '@/components/Reflection';
 import Mockup from '@/components/Mockup';
 import Pages from '@/components/Pages';
+import BeeSection from '@/components/BeeSection';
+import RecessMockup from '@/components/RecessMockup';
+import ReggieMom from '@/components/ReggieMom';
+import Brad from '@/components/Brad';
+import dynamic from 'next/dynamic';
+
 
 
 export default function Home() {
@@ -17,18 +23,21 @@ export default function Home() {
       </section>
 
       <Description/>
-      <Reflection />
+      <BeeSection />
       <Mockup />
       <Pages />
-
-      <section className="h-screen flex items-center justify-center">
-        <h1 className="text-6xl font-bold">take a sneak peak</h1>
-      </section>
-
+      <div className="flex flex-col md:flex-row">
+        <Brad />
+        <ReggieMom />
+      </div>
+      <RecessMockup />
+      <Reflection />
 
 
       {/* 3d layer  */}
-      <GameSectionWrapper />
+      <div className="hidden md:block">
+        <GameSectionWrapper />
+      </div>
     </main>
   );
 }
