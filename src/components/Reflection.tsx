@@ -8,7 +8,6 @@ export default function Reflection() {
       className="relative w-full min-h-[600px] md:min-h-[800px] flex items-center bg-cover bg-center md:bg-[center_top]" 
       style={{ backgroundImage: "url('/assets/reflection.PNG')" }}
     >
-      {/* 1. TEXT OVERLAY CONTAINER */}
       <div className="relative w-full max-w-7xl mx-auto px-6 py-20 md:py-0">
         <div className="md:ml-[8%] max-w-[90%] md:max-w-[45%] space-y-8 md:space-y-12">
           
@@ -17,10 +16,9 @@ export default function Reflection() {
           </h2>
 
           <div className="flex flex-col space-y-8">
-            {/* AUTHOR (Jatin) */}
+            {/* author - jat  */}
             <div className="flex items-center gap-4 group">
               <div className="shrink-0 w-16 h-16 md:w-24 md:h-24 rounded-full border-4 border-white shadow-xl overflow-hidden aspect-square">
-                {/* We use Image here for the avatars since they are small */}
                 <Image src="/assets/jat.webp" alt="Jatin" width={100} height={100} className="w-full h-full object-cover" />
               </div>
               <div>
@@ -31,7 +29,7 @@ export default function Reflection() {
               </div>
             </div>
 
-            {/* ILLUSTRATOR (Nimesh) */}
+            {/* illustrator - nim*/}
             <div className="flex items-center gap-4 group">
               <div className="shrink-0 w-16 h-16 md:w-24 md:h-24 rounded-full border-4 border-white shadow-xl overflow-hidden aspect-square">
                 <Image src="/assets/nim.webp" alt="Nimesh" width={100} height={100} className="w-full h-full object-cover" />
