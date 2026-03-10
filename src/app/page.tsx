@@ -11,7 +11,6 @@ import RecessMockup from '@/components/RecessMockup';
 import ReggieMom from '@/components/ReggieMom';
 import Brad from '@/components/Brad';
 import BeeWithReview from '@/components/BeeWithReview';
-import WaveDivider from '@components/WaveDivider';
 import FloatingBuyButton from '@/components/FloatingBuyButton';
 
 export default function Home() {
